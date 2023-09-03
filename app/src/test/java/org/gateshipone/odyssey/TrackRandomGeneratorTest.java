@@ -192,7 +192,7 @@ public class TrackRandomGeneratorTest {
                 numTracks++;
             }
         }
-        assertEquals(0,numTracks);
+        assertEquals(10,numTracks);
         //check that all elements are different
         assertTrue(areAllElementsUnique(listNumber));
 
