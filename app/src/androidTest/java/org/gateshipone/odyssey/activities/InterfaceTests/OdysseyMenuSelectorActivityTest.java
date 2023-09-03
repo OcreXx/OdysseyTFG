@@ -94,7 +94,7 @@ public class OdysseyMenuSelectorActivityTest {
     @Test
     public void odysseyMenuSelectorActivityTestAlbums() {
         ViewInteraction appCompatButton = onView(
-                allOf(withId(R.id.button_albums), withText("Albumx"),
+                allOf(withId(R.id.button_albums), withText("Albums"),
                         childAtPosition(
                                 childAtPosition(
                                         withId(android.R.id.content),
